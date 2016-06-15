@@ -1,0 +1,235 @@
+    1  vi .bash_history 
+    2  ls
+    3  poweroff 
+    4  cd /sys/class/gpio/
+    5  ls
+    6  echo PH9 1 > function
+    7  ls
+    8  exit
+    9  echo 4 > /sys/class/gpio/export
+   10  exit
+   11  ls
+   12  echo 4 > /sys/class/gpio/export
+   13  echo out > /sys/class/gpio/gpio5/direction 
+   14  echo 1 > /sys/class/gpio/gpio5/value 
+   15  echo 7 > /sys/class/gpio/gpio7/value
+   16  echo 7 > /sys/class/gpio/export 
+   17  echo 7 > /sys/class/gpio/gpio7/value 
+   18  echo 1 > /sys/class/gpio/gpio7/value 
+   19  echo out > /sys/class/gpio/gpio7/direction 
+   20  echo 1 > /sys/class/gpio/gpio7/value 
+   21  0
+   22  echo 1 > /sys/class/gpio/gpio7/value 
+   23  echo 0 > /sys/class/gpio/gpio7/value 
+   24  mount -t debugfs debug /d
+   25  mount -t debugfs debug /mnt
+   26  cd /mnt/
+   27  ls
+   28  ks
+   29  ls
+   30  ls 
+   31  mount -t debugfs debug
+   32  mount -t debugfs debug /d
+   33  mount -t debugfs debug /mnt
+   34  cd /mnt/gpio 
+   35  cat /mnt/gpio 
+   36  cd ..
+   37  ls
+   38  cd ~/
+   39  ls
+   40  exit
+   41  cd /sys/class/gpio/
+   42  ls
+   43  vim export 
+   44  vim gpiochip1024
+   45  echo 1 > /sys/class/gpio/export 
+   46  echo 2 > /sys/class/gpio/export 
+   47  echo 3 > /sys/class/gpio/export 
+   48  ls
+   49  echo PD0 > /sys/class/gpio/export 
+   50  echo PD01 > /sys/class/gpio/export 
+   51  echo PD01 1 > /sys/class/gpio/export 
+   52  history
+   53  mount -t debugfs debug /mnt
+   54  cd /mnt/pinctrl/
+   55  ls
+   56  cd sunxi-pinctrl/
+   57  ls
+   58  python
+   59  ls
+   60  cat gpio-ranges 
+   61  cat pinconf-pins 
+   62  cat pinconf-state 
+   63  cat pinconf-name
+   64  cat pins
+   65  ls
+   66  cd /sys/class/
+   67  ls
+   68  cd gpio/
+   69  ls
+   70  echo PG12 > /sys/class/gpio/export 
+   71  history
+   72  :q
+   73  ls
+   74  echo 204 > /sys/class/gpio/export 
+   75  echo 205 > /sys/class/gpio/export 
+   76  echo 206 > /sys/class/gpio/export 
+   77  echo 207 > /sys/class/gpio/export 
+   78  echo out > /sys/class/gpio/gpio*/direction
+   79  echo out > /sys/class/gpio/gpio204/direction
+   80  echo out > /sys/class/gpio/gpio205/direction
+   81  echo out > /sys/class/gpio/gpio206/direction
+   82  echo out > /sys/class/gpio/gpio207/direction
+   83  ls
+   84  echo 1 > /sys/class/gpio/gpio204/value 
+   85  echo 0 > /sys/class/gpio/gpio205/value 
+   86  echo 0 > /sys/class/gpio/gpio204/value 
+   87  echo 1 > /sys/class/gpio/gpio204/value 
+   88  echo out > /sys/class/gpio/gpio202/direction
+   89  echo 202 > /sys/class/gpio/export 
+   90  echo 203 > /sys/class/gpio/export 
+   91  echo out > /sys/class/gpio/gpio202/direction
+   92  echo out > /sys/class/gpio/gpio203/direction
+   93  echo 1 > /sys/class/gpio/gpio202/value 
+   94  echo 0 > /sys/class/gpio/gpio203/value 
+   95  echo 1 > /sys/class/gpio/gpio206/value 
+   96  echo 0 > /sys/class/gpio/gpio207/value 
+   97  echo 1 > /sys/class/gpio/gpio207/value 
+   98  echo 0 > /sys/class/gpio/gpio207/value 
+   99  echo 1 > /sys/class/gpio/gpio207/value 
+  100  echo 1 > /sys/class/gpio/gpio206/value 
+  101  echo 0 > /sys/class/gpio/gpio207/value 
+  102  echo 1 > /sys/class/gpio/gpio207/value 
+  103  echo 0 > /sys/class/gpio/gpio206/value 
+  104  echo 236 > /sys/class/gpio/export 
+  105  echo 237 > /sys/class/gpio/export 
+  106  echo out > /sys/class/gpio/gpio236/direction
+  107  echo out > /sys/class/gpio/gpio237/direction
+  108  echo 1 > /sys/class/gpio/gpio236/value 
+  109  echo 0 > /sys/class/gpio/gpio236/value 
+  110  echo 1 > /sys/class/gpio/gpio236/value 
+  111  echo 0 > /sys/class/gpio/gpio237/value 
+  112  echo 0 > /sys/class/gpio/gpio236/value 
+  113  echo 1 > /sys/class/gpio/gpio237/value 
+  114  echo 1 > /sys/class/gpio/gpio236/value 
+  115  echo 0 > /sys/class/gpio/gpio237/value 
+  116  echo 0 > /sys/class/gpio/gpio204/value 
+  117  echo 1 > /sys/class/gpio/gpio204/value 
+  118  sleep(1)
+  119  vim test.sh
+  120  fg
+  121  vim test.sh
+  122  gedit
+  123  cd ~/
+  124  ls
+  125  cd /home/linaro/
+  126  cd /home/linaro/Untitled\ Document\ 1 ~/test.sh
+  127  cp /home/linaro/Untitled\ Document\ 1 ~/test.sh
+  128  vim ~/test.sh 
+  129  ls
+  130  cd ~/
+  131  ls
+  132  exit
+  133  history
+  134  cat /mnt/sunxi_pinctrl/
+  135  cat /mnt/pinctrl/sunxi-pinctrl/pins 
+  136  history
+  137  history |grep mount
+  138  mount -t debugfs debug /mnt
+  139  cat /mnt/gpio 
+  140  ls
+  141  history
+  142  echo 204 > /sys/class/gpio/export 
+  143  echo 205 > /sys/class/gpio/export 
+  144  echo 236 > /sys/class/gpio/export 
+  145  echo 237 > /sys/class/gpio/export 
+  146  echo out > /sys/class/gpio/gpio236/direction
+  147  ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++echo out > /sys/class/gpio/gpio237/direction
+  148  +echo out > /sys/class/gpio/gpio204/direction
+  149  222echo out > /sys/class/gpio/gpio205/direction
+  150  echo 1 > /sys/class/gpio/gpio204/value 
+  151  echo 0 > /sys/class/gpio/gpio205/value 
+  152  echo 1 > /sys/class/gpio/gpio236/value 
+  153  echo 0 > /sys/class/gpio/gpio237/value 
+  154  cat /mnt/gpio 
+  155  ls
+  156  vim test
+  157  vim test.sh
+  158  ls
+  159  gedit test.sh
+  160  sh test.sh
+  161  cat /mnt/gpio 
+  162  gedit test.sh
+  163  echo 1 > /sys/class/gpio/gpio236/value 
+  164  cat /mnt/gpio 
+  165  sh test.sh
+  166  gedit test.sh
+  167  cat
+  168  sh test.sh
+  169  gedit test.sh
+  170  sh test.sh
+  171  gedit test.sh
+  172  sh test.sh
+  173  gedit test.sh
+  174  sh test.sh
+  175  gedit test.sh
+  176  sh test.sh
+  177  ls
+  178  cp test.sh reset.sh
+  179  gedit reset.sh
+  180  sh reset.sh
+  181  cp reset.sh setup.sh
+  182  gedit setup.sh
+  183  sh setup.sh
+  184  sh reset.sh
+  185  sh setup.sh
+  186  sh reset.sh
+  187  gedit test.sh
+  188  sh test
+  189  sh test.sh
+  190  gedit test.sh
+  191  sh reset.sh
+  192  sh setup.sh
+  193  sh reset.sh
+  194  sh test.sh
+  195  sh reset.sh
+  196  vim test.sh
+  197  gedit test.sh
+  198  sh setup.sh
+  199  sh reset.sh
+  200  sh test.sh
+  201  gedit test.sh
+  202  sh setup.sh
+  203  sh reset.sh
+  204  gedit test.sh
+  205  sh test.sh
+  206  gedit test.sh
+  207  sh test.sh
+  208  sh reset.sh
+  209  sh setup.sh
+  210  sh reset.sh
+  211  vim test.sh
+  212  gedit test.sh
+  213  sh reset.sh
+  214  sh test.sh
+  215  gedit test.sh
+  216  sh test.sh
+  217  gedit test.sh
+  218  sh test.sh
+  219  gedit test.sh
+  220  sh test.sh
+  221  sh reset.sh
+  222  python
+  223  vim
+  224  sudo apt-get install vim
+  225  vim
+  226  exit
+  227  ls
+  228  rm *.sh~
+  229  ls
+  230  mv *.sh /home/linaro/Downloads/
+  231  exit
+  232  sudo find / -name myap
+  233  sudo find / -name myap_start
+  234  exit
+  235  history > /home/linaro/code/stepper_motor/history_root.txt

@@ -1,0 +1,1000 @@
+  624  sudo echo PH9 > function 
+  625  sudo su -l
+  626  ls
+  627  ls -l
+  628  chmod -R 755 ./
+  629  sudo chmod -R 755 ./
+  630  ls
+  631  ls -l
+  632  sudo echo PH9 > function 
+  633  sudo chmod -R 777 ./
+  634  sudo echo PH9 > function 
+  635  echo PH9 > function 
+  636  ls -l
+  637  ls
+  638  echo PH9 1 > function 
+  639  echo PH9 0 > data
+  640  python 
+  641  python
+  642  dmesg
+  643  echo PH9 0 > data
+  644  echo PH9 1 > data
+  645  echo PH9 2 > data
+  646  echo PH9 0 > data
+  647  echo PH9 1 > data
+  648  ls
+  649  cd /sys/devices/virtual/misc/
+  650  ls
+  651  find ./ -name gpio
+  652  find ./ -name pin
+  653  ls
+  654  cd ~
+  655  find / -name gpio
+  656  sudo find / -name gpio
+  657  cd /sys/devices/platform/sunxi-pinctrl/gpio/
+  658  ls
+  659  cd gpiochip0/
+  660  ls
+  661  cd ..
+  662  cd ~
+  663  sudo find / -name pin
+  664  sudo find / -name tty
+  665  mount /dev/mmcblk0p1 /mnt/
+  666  sudo mount /dev/mmcblk0p1 /mnt/
+  667  ls
+  668  sudo mount /dev/mmcblk1p1 /mnt/
+  669  ls
+  670  cd /media/linaro/
+  671  ls
+  672  cd Vl
+  673  cd Volumn/
+  674  ls
+  675  cd ..
+  676  ls
+  677  cd /media/
+  678  ls
+  679  cd usb0/
+  680  ls
+  681  cd ..
+  682  ls
+  683  us
+  684  cd usb
+  685  ls
+  686  ls -l
+  687  cd ..
+  688  ls -l
+  689  cd linaro/
+  690  ls
+  691  cd 57f8f4bc-abf4-655f-bf67-946fc0f9f25b 
+  692  ls
+  693  cd ..
+  694  ls
+  695  find ./ -name *.bin
+  696  sudo find ./ -name *.bin
+  697  sudo find ./ -name script.bin
+  698  sudo find ./ -name script
+  699  sudo find ./ -name *.bin
+  700  sudo find --help
+  701  wifi-radar
+  702  sudo wifi-radar
+  703  ifconfig
+  704  modprobe 8818eu
+  705  yaourt
+  706  ifconfig
+  707  cd /media/usb0/
+  708  ls
+  709  cp RTL8188-hostapd-2.0-beta.tar.gz ~/Downloads/
+  710  ls
+  711  cd ~/Downloads/
+  712  ls
+  713  tar -zxvf RTL8188-hostapd-2.0-beta.tar.gz 
+  714  ls
+  715  cd RTL8188-hostapd-2.0-beta
+  716  ls
+  717  cd hostapd/
+  718  ls
+  719  make
+  720  make install
+  721  sudo make install
+  722  cd /etc/hostapd/
+  723  ls
+  724  vim hostapd.conf 
+  725  sudo vim hostapd.conf 
+  726  vim /etc/default/hostapd 
+  727  vim ~/.bashrc
+  728  vim /etc/default/hostapd 
+  729  source ~/.bashrc
+  730  vim /etc/default/hostapd 
+  731  sudo service hostapd restart
+  732  sudo update-rc.d hostapd defaults
+  733  service
+  734  service --status-all
+  735  service --status-all |grep hostapd
+  736  sudo update-rc.d hostapd defaults
+  737  sudo service hostapd start
+  738  sudo service hostapd restart
+  739  ls
+  740  cd ~/Downloads/
+  741  ls
+  742  cp /media/usb0/udhcp-0.9.8.tar.gz ./
+  743  ls
+  744  tar -zxvf udhcp-0.9.8.tar.gz 
+  745  ls
+  746  cd udhcp-0.9.8
+  747  ls
+  748  make
+  749  sudo make
+  750  sudo make .
+  751  sudo make 
+  752  ls
+  753  vim README
+  754  sudo make install
+  755  ls
+  756  ./udhcpd 
+  757  sudo ./udhcp
+  758  sudo ./udhcpd
+  759  sudo apt-get install udhcpd
+  760  cd cd /etc/
+  761  ls
+  762  vim udhcpd.conf
+  763  vim /etc/udhcpd.conf 
+  764  vim /etc/default/udhcpd 
+  765  sudo service udhcpd restart
+  766  sudo update-rc.d udhcpd defaults
+  767  vim /etc/network/interfaces
+  768  ls
+  769  cp /etc/network/interfaces /etc/network/interfaces.bak
+  770  vim /etc/network/interfaces
+  771  sudo ifdown wlan0
+  772  ifdown
+  773  sudo ifup wlan0
+  774  cp /etc/sysctl.conf /etc/sysctl.conf .bak
+  775  cp /etc/sysctl.conf /etc/sysctl.conf.bak
+  776  vim /etc/sysctl.conf
+  777  sudo iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+  778  iptables
+  779  sudo iptables
+  780  sudo iptables -L
+  781  iptables
+  782  iw list
+  783  ip
+  784  ip link set dev wlan0_ap up
+  785  ip link set dev wlan0 up
+  786  sudo ip link set dev wlan0 up
+  787  ifup
+  788  sudo restart
+  789  sudo restart -h now
+  790  ifconfig
+  791  sudo service hostapd start
+  792  vim /etc/default/udhcpd 
+  793  sudo service udhcpd start
+  794  sudo service hostapd restart
+  795  vim /etc/network/interfaces
+  796  sudo service hostapd restart
+  797  vim /etc/hostapd/hostapd.conf 
+  798  ifconfig
+  799  ifconfig wlan0 up
+  800  sudo ifconfig wlan0 up
+  801  sudo service hostapd restart
+  802  sudo hostpad /etc/hostapd/hostapd.conf 
+  803  ifconf
+  804  ifconfig
+  805  cat /etc/hostapd/hostapd.conf 
+  806  :q
+  807  vim /etc/hostapd/hostapd.conf 
+  808  hostapd /etc/hostapd/hostapd.conf 
+  809  sudo hostapd /etc/hostapd/hostapd.conf 
+  810  iwlist
+  811  sudo apt-get remove hostapd
+  812  sudo apt-get install hostapd
+  813  vim /etc/hostapd/
+  814  vim /etc/hostapd/hostapd.conf 
+  815  fg
+  816  hostapd /etc/hostapd/hostapd.conf 
+  817  sudo hostapd /etc/hostapd/hostapd.conf 
+  818  hostapd /etc/hostapd/hostapd.conf 
+  819  sudo hostapd /etc/hostapd/hostapd.conf 
+  820  modprobe bcmdhd
+  821  modprobe bcmdhd opmode-2
+  822  modprobe bcmdhd opmode=2
+  823  vim /etc/hostapd/hostapd.conf 
+  824  sudo hostapd /etc/hostapd/hostapd.conf 
+  825  vim /etc/hostapd/hostapd.conf 
+  826  sudo hostapd /etc/hostapd/hostapd.conf 
+  827  vim /etc/hostapd/hostapd.conf 
+  828  sudo hostapd /etc/hostapd/hostapd.conf 
+  829  hostapd -v
+  830  sudo apt-get remove --purge hostapd
+  831  cp /media/usb0/hostapd21.tgz ./
+  832  ls
+  833  mv hostapd21.tgz Downloads/
+  834  ls
+  835  cd Downloads/
+  836  ls
+  837  unzip hostapd21.tgz 
+  838  tar -zxvf hostapd21.tgz 
+  839  ls
+  840  cd hostapd
+  841  ls
+  842  hostapd
+  843  hostapd -h
+  844  hostapd -v
+  845  ls
+  846  cd hostapd
+  847  ls
+  848  cd hostapd
+  849  cd RTL8188-hostapd-2.0-beta
+  850  ls
+  851  cd hostapd/
+  852  ls
+  853  make install
+  854  sudo make install
+  855  cd ..
+  856  ls
+  857  cd ..
+  858  ls
+  859  hostapd -v
+  860  hostapd /etc/hostapd/hostapd.conf 
+  861  sudo hostapd /etc/hostapd/hostapd.conf 
+  862  ls
+  863  vim /etc/hostapd/hostapd.conf 
+  864  sudo hostapd /etc/hostapd/hostapd.conf 
+  865  hostapd /etc/hostapd/hostapd.conf 
+  866  sudo hostapd /etc/hostapd/hostapd.conf 
+  867  hostapd -v
+  868  sudo apt-get remove --purge hostapd
+  869  sudo apt-get autoremove hostapd
+  870  hostapd
+  871  hostapd -v
+  872  hostapd -B /etc/hostapd/hostapd.conf 
+  873  sudo hostapd -B /etc/hostapd/hostapd.conf 
+  874  sudo hostapd  /etc/hostapd/hostapd.conf 
+  875  vim /etc/network/interfaces
+  876  vim /etc/modules
+  877  vim /etc/hostapd/
+  878  vim /etc/hostapd/hostapd.conf 
+  879  ls
+  880  vim /etc/hostapd/hostapd.conf
+  881  vim /etc/sysctl.conf
+  882  iptables
+  883  sudo hostapd /etc/hostapd/hostapd.conf 
+  884  sudo apt-get install libssl-dev
+  885  sudo hostapd /etc/hostapd/hostapd.conf 
+  886  hostapd /etc/hostapd/hostapd.conf 
+  887  service hostapd start
+  888  sudo service hostapd start
+  889  sudo service hostapd restart
+  890  vim /etc/hostapd/hostapd.conf 
+  891  sudo service hostapd restart
+  892  abs
+  893  vim /etc/network/interfaces
+  894  sudo apt-get install dnsmasq
+  895  vim /etc/modules
+  896  sudo modprobe bcmdhd
+  897  sudo apt-get install dnsmasq
+  898  sudo service hostapd restart
+  899  iptables
+  900  ifconfig
+  901  iwconfig
+  902  iw
+  903  sudo apt-get install iw
+  904  lsusb
+  905  lspci
+  906  vim /etc/hostapd/hostapd.conf 
+  907  fg
+  908  ipconfig
+  909  ifconfig
+  910  fg
+  911  service hostapd start
+  912  sudo service hostapd start
+  913  sudo hostapd /etc/hostapd/hostapd.conf 
+  914  sudo hostapd -B /etc/hostapd/hostapd.conf 
+  915  hostapd /etc/hostapd/hostapd.conf 
+  916  sudo hostapd -B /etc/hostapd/hostapd.conf 
+  917  sudo hostapd -B /etc/hostapd/hostapd.conf |grep driver
+  918  sudo hostapd -B /etc/hostapd/hostapd.conf
+  919  sudo mncli nm wifi off
+  920  hostapd -dd /etc/hostapd/hostapd.conf 
+  921  sudo apt-get install ap-hotspot
+  922  sudo apt-get update
+  923  sudo apt-get install ap-hotspot
+  924  iwconfig
+  925  iw
+  926  iwlist
+  927  hostapd -v
+  928  ls
+  929  cp /media/usb0/hostapd-2.1.tar.gz 
+  930  cp /media/usb0/hostapd-2.1.tar.gz ./
+  931  unzip hostapd-2.1.tar.gz 
+  932  tar -zxvf hostapd-2.1.tar.gz 
+  933  ls
+  934  cd hostapd-2.1
+  935  ls
+  936  cd hostapd/
+  937  ls
+  938  make
+  939  sudo make
+  940  cd ..
+  941  ls
+  942  vim README 
+  943  cd hostapd/
+  944  ls
+  945  vim README
+  946  vim hostapd.conf 
+  947  make
+  948  ./config
+  949  ./configure
+  950  ls
+  951  make
+  952  cp defconfig .config
+  953  make
+  954  sudo apt-get install libnl-3-dev
+  955  make
+  956  ./configutre
+  957  ./configure
+  958  make
+  959  ls
+  960  cd ..
+  961  ls
+  962  cd ..
+  963  ls
+  964  rm -rf hostapd-2.1
+  965  ls
+  966  tar -zxvf hostapd-2.1.tar.gz 
+  967  cd hostapd-2.1
+  968  ls
+  969  cd hoa
+  970  cd hostapd/
+  971  la
+  972  ls
+  973  make
+  974  cp defconfig .config
+  975  make
+  976  vim ../hostapd/.config 
+  977  make
+  978  sudo apt-get install libnl-genl-3-dev
+  979  make
+  980  make install
+  981  make
+  982  ls
+  983  cd ..
+  984  ls
+  985  cd hostapd/
+  986  ls
+  987  make install
+  988  sudo make install
+  989  hostapd -v
+  990  ls
+  991  hostapd /etc/hostapd/hostapd.conf 
+  992  vim /etc/hostapd/hostapd.conf 
+  993  sudo hostapd /etc/hostapd/hostapd.conf 
+  994  sudo hostapd -B /etc/hostapd/hostapd.conf 
+  995  service hostapd restart
+  996  sudo apt-get install dnsmasq
+  997  vim /etc/default/hostapd
+  998  /etc/init.d/hostapd start
+  999  sudo service hostapd restart
+ 1000  modeprob bcmdhd
+ 1001  modprobe
+ 1002  modprobe bcmdhd
+ 1003  sudo modeprobe bcmdhd
+ 1004  sudo modprobe bcmdhd
+ 1005  sudo modprobe bcmdhd op_mode=2
+ 1006  vim /etc/hostapd/hostapd.conf 
+ 1007  hostapd -B /etc/hostapd/hostapd.conf 
+ 1008  vim hostapd.conf 
+ 1009  vim /etc/hostapd/hostapd.conf 
+ 1010  hostapd -B /etc/hostapd/hostapd.conf 
+ 1011  nmcli
+ 1012  sudo apt-get install nmcli
+ 1013  rfkill
+ 1014  sudo nmcli radio wifi off
+ 1015  sudo apt-get install nm-tool
+ 1016  sudo rfkill unblock wlan
+ 1017  sudo ifconfig wlan0 10.15.0.1/24 up
+ 1018  sleep 1
+ 1019  sudo service isc-dhcp-server restart
+ 1020  sudo service hostapd restart
+ 1021  hostapd -B /etc/hostapd/hostapd.conf 
+ 1022  sudo hostapd -B /etc/hostapd/hostapd.conf 
+ 1023  iwconfig
+ 1024  ifconfig
+ 1025  sudo hostapd -B /etc/hostapd/hostapd.conf 
+ 1026  sudo add-apt-repository ppa:network-manager/trunk
+ 1027  sudo apt-get install network-manager
+ 1028  sudo apt-get update
+ 1029  sudo apt-get install network-manager
+ 1030  history
+ 1031  nmcli
+ 1032  shutdown -h now
+ 1033  sudo shutdown -h now
+ 1034  iwconfig
+ 1035  history
+ 1036  sudo hostapd
+ 1037  sudo hostapd /etc/hostapd/hostapd.conf 
+ 1038  sudo hostapd -B /etc/hostapd/hostapd.conf 
+ 1039  hostapd -dd /etc/hostapd/hostapd.conf 
+ 1040  service hostapd restart
+ 1041  sudo service hostapd restart
+ 1042  vim /etc/default/hostapd
+ 1043  vim /etc/hostapd/hostapd.conf 
+ 1044  sudo /etc/init.d/hostapd start
+ 1045  sudo /etc/init.d/hostapd status
+ 1046  sudo /etc/init.d/hostapd stop
+ 1047  sudo /etc/init.d/hostapd status
+ 1048  sudo /etc/init.d/hostapd start
+ 1049  sudo hostapd -d /etc/hostapd/hostapd.conf 
+ 1050  nmcli
+ 1051  sudo apt-get install network-manager
+ 1052  sudo apt-get --fix-missing
+ 1053  sudo apt-get update --fix-missing
+ 1054  sudo apt-get install network-manager
+ 1055  vim /etc/resolv.conf 
+ 1056  ping www.google.com
+ 1057  sudo apt-get install network-manager
+ 1058  sudo apt-get update
+ 1059  vim /etc/resolv.conf 
+ 1060  nmcli
+ 1061  sudo apt-get clean
+ 1062  sudo apt-get update
+ 1063  sudo apt-get install network-manager
+ 1064  numli
+ 1065  nmcli
+ 1066  nmcli nm wifi off
+ 1067  sudo nmcli nm wifi off
+ 1068  sudo rfkill unblock wlan
+ 1069  sudo service hostpad restart
+ 1070  sudo service hostapd restart
+ 1071  sudo ifconfig wlan0 10.15.0.1/24 up
+ 1072  sleep 1
+ 1073  sudo service hostapd restart
+ 1074  sudo hostapd -d /etc/hostapd/hostapd.conf 
+ 1075  sudo killall hostapd
+ 1076  sudo hostapd -B /etc/hostapd/hostapd.conf 
+ 1077  sudo apt-get install isc-dhcp-server
+ 1078  vim /etc/default/isc-dhcp-server 
+ 1079  vim /etc/dhcp/dhcpd.conf 
+ 1080  sudo ifconfig wlan0 192.168.201.1 netmask 255.255.255.0 up
+ 1081  sudo /etc/init.d/isc-dhcp-server restart
+ 1082  cat /var/log/syslog
+ 1083  vim /etc/hostapd/hostapd.conf 
+ 1084  sudo hostapd -d /etc/hostapd/hostapd.conf 
+ 1085  fg
+ 1086  vim /etc/hostapd/hostapd.conf 
+ 1087  sudo hostapd -d /etc/hostapd/hostapd.conf 
+ 1088  sudo hostapd -de /etc/hostapd/hostapd.conf 
+ 1089  sudo hostapd -dd /etc/hostapd/hostapd.conf 
+ 1090  sudo hostapd -d /etc/hostapd/hostapd.conf 
+ 1091  sudo hostapd -dc /etc/hostapd/hostapd.conf 
+ 1092  sudo hostapd -dB /etc/hostapd/hostapd.conf 
+ 1093  sudo hostapd -B /etc/hostapd/hostapd.conf 
+ 1094  sudo hostapd  /etc/hostapd/hostapd.conf 
+ 1095  sudo hostapd /etc/hostapd/hostapd.conf 
+ 1096  hostapd -v
+ 1097  sudo mncli nm wifi off
+ 1098  sudo nmcli nm wifi off
+ 1099  sudo rfkill unblock wlan
+ 1100  sudo hostapd /etc/hostapd/hostapd.conf 
+ 1101  sudo service hostapd start
+ 1102  sudo service hostapd restart
+ 1103  sudo nmcli radio wifi off
+ 1104  sudo nmcli nm wifi off
+ 1105  sudo service network-manager start
+ 1106  sudo nmcli nm wifi off
+ 1107  sudo rfkill unblock wlan
+ 1108  sudo service hostapd restart
+ 1109  sudo hostapd /etc/hostapd/hostapd.conf 
+ 1110  sudo nmcli nm wifi off
+ 1111  sudo rfkill unblock wlan
+ 1112  ifconfig
+ 1113  sudo hostapd /etc/hostapd/hostapd.conf 
+ 1114  sudo hostapd -d /etc/hostapd/hostapd.conf 
+ 1115  sudo hostapd -B /etc/hostapd/hostapd.conf 
+ 1116  sudo killall hostapd
+ 1117  sudo hostapd -B /etc/hostapd/hostapd.conf 
+ 1118  vim /etc/hostapd/hostapd.conf 
+ 1119  iptables
+ 1120  vim /etc/default/isc-dhcp-server 
+ 1121  vim /etc/dhcp/dhcpd.conf 
+ 1122  sudo /etc/init.d/isc-dhcp-server restart
+ 1123  fg
+ 1124  vim /etc/dhcp/dhcpd.conf 
+ 1125  sudo /etc/init.d/isc-dhcp-server restart
+ 1126  sudo ifconfig wlan0 192.168.201.1 netmask 255.255.255.0 up
+ 1127  sudo /etc/init.d/isc-dhcp-server restart
+ 1128  sudo sysctl -w net.ipv4.ip_forward=1
+ 1129  sudo iptables -F
+ 1130  sudo iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+ 1131  sudo iptables -L
+ 1132  iptables
+ 1133  iptable --help
+ 1134  iptables --help
+ 1135  iptable -t
+ 1136  iptables -t
+ 1137  ifconfig
+ 1138  ping 192.168.201.101
+ 1139  sudo ping 192.168.201.101
+ 1140  sudo ping 192.168.201.100
+ 1141  sudo ping 192.168.0.12
+ 1142  ipconfig
+ 1143  ifconfig
+ 1144  ping 192.168.201.100
+ 1145  sudo ping 192.168.201.100
+ 1146  sudo ping 192.168.201.1
+ 1147  iptables -L -v -n
+ 1148  sudo iptables -L -v -n
+ 1149  ping 192.168.201.100
+ 1150  sudo ping 192.168.201.100
+ 1151  arp -a
+ 1152  arp
+ 1153  arp -a
+ 1154  vim cbap
+ 1155  killall hostapd
+ 1156  sudo killall hostapd
+ 1157  sduo /etc/init.d/isc-dhcp-server stop
+ 1158  sudo /etc/init.d/isc-dhcp-server stop
+ 1159  service hostapd start
+ 1160  sudo service hostapd start
+ 1161  sudo service hostapd restart
+ 1162  vim myap
+ 1163  defautIface=eth0
+ 1164  fg
+ 1165  ifconfig
+ 1166  fg
+ 1167  iptables
+ 1168  fg
+ 1169  history
+ 1170  fg
+ 1171  cp  myap /usr/bin/
+ 1172  cp ./myap /usr/bin/
+ 1173  sudo chmod a+x /usr/bin/myap 
+ 1174  myap 
+ 1175  vim /usr/bin/myap 
+ 1176  fg
+ 1177  myap 
+ 1178  fg
+ 1179  vim myap 
+ 1180  myap 
+ 1181  fg
+ 1182  iptables -F
+ 1183  sudo iptables -F
+ 1184  sudo iptables -X
+ 1185  fg
+ 1186  sudo sysctl -w net.ipv4.ip_forward=1
+ 1187  fg
+ 1188  vim myap 
+ 1189  killall hostapd
+ 1190  sudo killall hostapd
+ 1191  myap
+ 1192  vim /usr/bin/
+ 1193  vim /usr/bin/myap 
+ 1194  sudo ifconfig wlan0 192.168.201.1 netmask 255.255.255.0 up
+ 1195  fg
+ 1196  myap 
+ 1197  fg
+ 1198  vim /usr/bin/myap 
+ 1199  myap 
+ 1200  fg
+ 1201  ifconfig
+ 1202  fg
+ 1203  vim /usr/bin/myap 
+ 1204  myap 
+ 1205  /usr/bin/myap 
+ 1206  vim /usr/bin/myap 
+ 1207  sudo iptables -t nat -A POSTROUTING -0 eth0 -j MASQUERADE
+ 1208  sudo iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+ 1209  vim /usr/bin/myap 
+ 1210  myap 
+ 1211  arp -a
+ 1212  ipconfig
+ 1213  ifconfig
+ 1214  arp -a
+ 1215  myap 
+ 1216  arp -a
+ 1217  service hostapd status
+ 1218  service hostapd stop
+ 1219  service hostapd start
+ 1220  sudo service hostapd start
+ 1221  myap 
+ 1222  vim myap 
+ 1223  sudo hostapd -B /etc/hostapd/hostapd.conf restart
+ 1224  sudo hostapd -B /etc/hostapd/hostapd.conf
+ 1225  fg
+ 1226  sudo killall hostapd
+ 1227  service hostapd status
+ 1228  fg
+ 1229  myap
+ 1230  fg
+ 1231  vim /usr/bin/
+ 1232  vim /usr/bin/myap 
+ 1233  arp -a
+ 1234  vim /etc/sysctl.conf
+ 1235  myap
+ 1236  vim /usr/bin/myap 
+ 1237  vim /etc/NetworkManager/NetworkManager.conf 
+ 1238  ifconfig
+ 1239  fg
+ 1240  myap 
+ 1241  arp -a
+ 1242  history
+ 1243  fg
+ 1244  vim /usr/bin/myap 
+ 1245  myap 
+ 1246  fg
+ 1247  vim /usr/bin/myap 
+ 1248  myap 
+ 1249  arp -a
+ 1250  sudo /etc/init.d/isc-dhcp-server restart
+ 1251  arp -a
+ 1252  vim /etc/dhcp/dhcpd.conf 
+ 1253  vim fg
+ 1254  vim /etc/dhcp/dhcpd.conf 
+ 1255  vim /etc/default/isc-dhcp-server 
+ 1256  ifconfig
+ 1257  sudo /etc/init.d/isc-dhcp-server restart
+ 1258  sudo sysctl -w net.ipv4_ip_forward=1
+ 1259  sudo sysctl -w net.ipv4.ip_forward=1
+ 1260  sudo iptable -F
+ 1261  sudo iptables -F
+ 1262  sudo iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+ 1263  sudo iptables -L
+ 1264  arp -a
+ 1265  ping 192.168.0.5
+ 1266  sudo ping 192.168.0.5
+ 1267  sudo ping 192.168.0.101
+ 1268  sudo ping 192.168.201.101
+ 1269  sudo ping 192.168.0.5
+ 1270  sudo /etc/init.d/dnsmasq start
+ 1271  sudo /etc/init.d/dnsmasq resstart
+ 1272  sudo /etc/init.d/dnsmasq stop
+ 1273  myap 
+ 1274  vim /etc/hostapd/hostapd.conf 
+ 1275  myap 
+ 1276  fg
+ 1277  vim /etc/hostapd/hostapd.conf 
+ 1278  vim /etc/dnsmasq.
+ 1279  vim /etc/dnsmasq.conf 
+ 1280  vim /etc/default/isc-dhcp-server 
+ 1281  fg
+ 1282  vim /etc/default/isc-dhcp-server 
+ 1283  vim /etc/dhcp/dhcpd.conf 
+ 1284  myap
+ 1285  vim /etc/dhcp/dhcpd.conf 
+ 1286  ifconfig
+ 1287  ls
+ 1288  history
+ 1289  vim /usr/bin/myap 
+ 1290  sudo /etc/init.d/isc-dhcp-server stop
+ 1291  vim /etc/dnsmasq.conf 
+ 1292  sudo /etc/init.d/dnsmasq start
+ 1293  fg
+ 1294  vim /etc/dnsmasq.
+ 1295  vim /etc/dnsmasq.conf 
+ 1296  sudo /etc/init.d/dnsmasq start
+ 1297  fg
+ 1298  sudo /etc/init.d/dnsmasq start
+ 1299  fg
+ 1300  vim /etc/dnsmasq.conf 
+ 1301  fg
+ 1302  vim /etc/dnsmasq.conf 
+ 1303  sudo /etc/init.d/dnsmasq start
+ 1304  ifconfig wlan 192.169.201.1 netmask 255.255.255.0
+ 1305  sudo ifconfig wlan 192.169.201.1 netmask 255.255.255.0
+ 1306  sudo ifconfig wlan 192.169.201.1 netmask 255.255.255.0 up
+ 1307  sudo ifconfig wlan0 192.169.201.1 netmask 255.255.255.0 up
+ 1308  ifconfig
+ 1309  iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+ 1310  sudo iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+ 1311  vim /etc/sysctl.
+ 1312  vim /etc/sysctl.conf
+ 1313  vim myap 
+ 1314  sudo killall hostapd
+ 1315  sudo hostapd -d /etc/hostapd/hostapd.conf 
+ 1316  sudo hostapd  /etc/hostapd/hostapd.conf 
+ 1317  fg
+ 1318  vim myap 
+ 1319  sudo killall hostapd
+ 1320  sudo hostapd -B /etc/hostapd/hostapd.conf 
+ 1321  sudo /etc/init.d/dnsmasq restart
+ 1322  vim /etc/dnsmasq.conf 
+ 1323  ipaddr add 192.168.201.1/24 dev wlan0
+ 1324  sudo ip addr add 192.168.201.1/24 dev wlan0
+ 1325  ipconfig
+ 1326  ifconfig
+ 1327  sudo ip addr add 192.168.201.1/24 dev wlan0
+ 1328  sudo killall hostapd
+ 1329  sudo hostapd -B /etc/hostapd/hostapd.conf 
+ 1330  sudo /etc/init.d/dnsmasq restart
+ 1331  sudo ifconfig wlan0 192.168.201.1 netmask 255.255.255.0 up
+ 1332  sudo ip addr add 192.168.201.1/24 dev wlan0
+ 1333  iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+ 1334  sudo iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+ 1335  arp -a
+ 1336  ls
+ 1337  sudo /etc/init.d/hostapd start
+ 1338  sudo /etc/init.d/hostapd restart
+ 1339  vim myap 
+ 1340  sudo killall hostapd
+ 1341  sudo hostapd -B /etc/hostapd/hostapd.conf 
+ 1342  sudo rfkill hostapd
+ 1343  myap
+ 1344  fg
+ 1345  s
+ 1346  ls
+ 1347  fg
+ 1348  sudo mncli nm wifi off
+ 1349  sudo nmcli nm wifi off
+ 1350  sudo rfkill unblock wlan
+ 1351  sudo killall hostapd
+ 1352  myap 
+ 1353  arp -a
+ 1354  ifconfig
+ 1355  arp -a
+ 1356  sudo killall hostapd
+ 1357  sudo /etc/init.d/hostapd start
+ 1358  service hostapd stop
+ 1359  service hostapd start
+ 1360  sudo /etc/init.d/hostapd start
+ 1361  service hostapd stop
+ 1362  sudo /etc/init.d/hostapd start
+ 1363  sudo /etc/init.d/hostapd stop
+ 1364  sudo /etc/init.d/hostapd start
+ 1365  sudo /etc/init.d/isc-dhcp-server stop
+ 1366  sudo /etc/init.d/dnsmasq start
+ 1367  sudo sysctl net.ipv4.ip_forward=1
+ 1368  sudo iptables -t -nat -A POSTROUTING -o eth0 -j MASQUERADE
+ 1369  sudo iptables -t nat -A POSTROUTING -o eth0 -j MASQUERADE
+ 1370  sudo ifconfig wlan0 192.168.0.1 netmask 255.255.255.0
+ 1371  ifconfig
+ 1372  arp
+ 1373  arp -a
+ 1374  sysctl
+ 1375  service sysctl start
+ 1376  /etc/init.d/rc.local 
+ 1377  vim /etc/init.d/rc.local 
+ 1378  ls
+ 1379  arp -a
+ 1380  ping 192.168.0.8
+ 1381  sudo ping 192.168.0.8
+ 1382  sudo ping 192.168.0.7
+ 1383  sudo ping 192.168.0.9
+ 1384  arp -a
+ 1385  ls
+ 1386  vim myap 
+ 1387  history 
+ 1388  history |grep rfkill
+ 1389  fg
+ 1390  history
+ 1391  fg
+ 1392  vim myap 
+ 1393  vim /usr/bin/
+ 1394  vim /usr/bin/myap 
+ 1395  fg
+ 1396  history
+ 1397  fg
+ 1398  vim /etc/dnsmasq.conf 
+ 1399  myap 
+ 1400  vim /usr/bin/myap 
+ 1401  arp -a
+ 1402  ping 192.168.0.8
+ 1403  sudo ping 192.168.0.8
+ 1404  arp -a
+ 1405  ping 192.168.0.5
+ 1406  sudo ping 192.168.0.5
+ 1407  arp -a
+ 1408  ping 192.168.0.151
+ 1409  sudo ping 192.168.0.151
+ 1410  sudo ping 192.168.0.9
+ 1411  sudo ping 192.168.0.5
+ 1412  arp -a
+ 1413  sudo ping 192.168.0.5
+ 1414  sudo ping 192.168.0.8
+ 1415  sudo ping 192.168.0.9
+ 1416  sudo ping 192.168.0.12312
+ 1417  sudo ping 192.168.0.5
+ 1418  sudo ping 192.168.0.8
+ 1419  sudo ping 192.168.0.2
+ 1420  sudo ping 192.168.0.3
+ 1421  sudo ping 192.168.0.4
+ 1422  arp -a
+ 1423  vim /usr/bin/myap 
+ 1424  mv /usr/bin/myap /usr/bin/myap_start 
+ 1425  myap_start 
+ 1426  vim /usr/bin/myap_stop
+ 1427  vim /usr/bin/myap_start 
+ 1428  fg
+ 1429  myap_stop
+ 1430  sudo myap_stop
+ 1431  sudo chmod a+x /usr/bin/myap_stop 
+ 1432  myap_stop
+ 1433  myap_start
+ 1434  myap_stop
+ 1435  bye
+ 1436  sudo shutdown -h now
+ 1437  cat /mnt/gpio 
+ 1438  cat /mnt/sunxi_pinctrl/sunxi_pin
+ 1439  cat /mnt/sunxi_pinctrl/sunxi_pin_configure 
+ 1440  cat /mnt/sunxi_pinctrl/data 
+ 1441  cat /mnt/gpio 
+ 1442  history
+ 1443  sudo su -l
+ 1444  ls
+ 1445  cd /mnt/
+ 1446  ls
+ 1447  history
+ 1448  history |grep mount
+ 1449  sudo su -l
+ 1450  vi
+ 1451  vim
+ 1452  ls
+ 1453  vim myap 
+ 1454  vim
+ 1455  vim ~/.vimrc
+ 1456  vim
+ 1457  vim test.py
+ 1458  rm test.py 
+ 1459  ls
+ 1460  vim Untitled\ Document\ 1 
+ 1461  sudo su -l
+ 1462  ls
+ 1463  cd Downloads/
+ 1464  ls
+ 1465  cd ..
+ 1466  ls
+ 1467  mkdir Code
+ 1468  rmdir Code/
+ 1469  mkdir code
+ 1470  ls
+ 1471  cd code/
+ 1472  ls
+ 1473  cd ../files/
+ 1474  ls
+ 1475  mkdir stepper_motor
+ 1476  ls
+ 1477  mv *.* stepper_motor/
+ 1478  ls
+ 1479  mv bin2fex fex2bin stepper_motor/
+ 1480  ls
+ 1481  cd stepper_motor/
+ 1482  ls
+ 1483  mkdir sunxi_tool
+ 1484  mv * sunxi_tool/
+ 1485  ls
+ 1486  cd ..
+ 1487  ls
+ 1488  cd ..
+ 1489  ls
+ 1490  cd code/
+ 1491  cd fi
+ 1492  ls
+ 1493  vim ../myap 
+ 1494  cd /bin/sh/
+ 1495  ls
+ 1496  cd ..
+ 1497  ls
+ 1498  myap_start 
+ 1499  myap_stop 
+ 1500  ls
+ 1501  cd code/
+ 1502  ls
+ 1503  mkdir virtual_ap
+ 1504  cd virtual_ap/
+ 1505  ls
+ 1506  vim readme.rd
+ 1507  ls
+ 1508  cd .
+ 1509  cd ..
+ 1510  ls
+ 1511  cd ..
+ 1512  ls
+ 1513  cd Downloads/
+ 1514  ls
+ 1515  find / -name syap
+ 1516  find / -name myap
+ 1517  sudo find / -name myap
+ 1518  sudo su -l
+ 1519  cp /usr/bin/myap_st* ./
+ 1520  ls
+ 1521  cd ..
+ 1522  ls
+ 1523  cd code/
+ 1524  ls
+ 1525  cd virtual_ap/
+ 1526  ls
+ 1527  cp ~/Downloads/myap_st* ./
+ 1528  ls
+ 1529  rm ~/Downloads/myap_st*
+ 1530  ls
+ 1531  vim readme.rd 
+ 1532  fg
+ 1533  vim readme.rd 
+ 1534  ls
+ 1535  mv readme.rd README.md
+ 1536  ls
+ 1537  cd ..
+ 1538  ls
+ 1539  mkdir stepper_motor
+ 1540  ls
+ 1541  cd stepper_motor/
+ 1542  ls
+ 1543  cd ..
+ 1544  ls
+ 1545  cd stepper_motor/
+ 1546  ls
+ 1547  cd ..
+ 1548  ls
+ 1549  cd ..
+ 1550  ls
+ 1551  mv myap code/virtual_ap/
+ 1552  ls
+ 1553  vim Untitled\ Document\ 1 
+ 1554  cd code/
+ 1555  ls
+ 1556  cd stepper_motor/
+ 1557  ls
+ 1558  vim README.md
+ 1559  vim README.md 
+ 1560  cd ..
+ 1561  ls
+ 1562  cd virtual_ap/
+ 1563  ls
+ 1564  vim README.md 
+ 1565  cd ..
+ 1566  ls
+ 1567  cd virtual_ap/
+ 1568  ls
+ 1569  cd ../stepper_motor/
+ 1570  ls
+ 1571  cp ~/Downloads/*.sh ./
+ 1572  ls
+ 1573  rm install_emmc.sh 
+ 1574  ls
+ 1575  rm ~/Downloads/reset.sh 
+ 1576  rm ~/Downloads/setup.sh 
+ 1577  rm ~/Downloads/test*.sh
+ 1578  ls
+ 1579  vim test.sh 
+ 1580  history
+ 1581  ls
+ 1582  vim test2.sh 
+ 1583  vim run.sh
+ 1584  vim run.py
+ 1585  ls
+ 1586  git
+ 1587  git init
+ 1588  git add -A
+ 1589  git commit -am "init"
+ 1590  git config --global user.email "kingofyeti"
+ 1591  git config --global user.email "kingoyfeti@gmail"
+ 1592  git commit -am
+ 1593  git commit -am "init"
+ 1594  git remote add origin https://github.com/kingofyeti/stepper_motor.git
+ 1595  git push -u
+ 1596  git push -u origin master
+ 1597  cd ..
+ 1598  ls
+ 1599  cd virtual_ap/
+ 1600  ls
+ 1601  git init
+ 1602  git add -A
+ 1603  git commit -m "init"
+ 1604  git remote add origin "https://github.com/kingofyeti/virtual_ap.git"
+ 1605  git push -u
+ 1606  git branch
+ 1607  git push -u origin master
+ 1608  git remote add origin "https://github.com/kingofyeti/virtual_ap.git"
+ 1609  git push -u origin master
+ 1610  history > history
+ 1611  ls
+ 1612  vim history 
+ 1613  ls
+ 1614  rm history 
+ 1615  cd ..
+ 1616  sl
+ 1617  ls
+ 1618  cd stepper_motor/
+ 1619  ls
+ 1620  sudo history
+ 1621  history
+ 1622  sudo su -l
+ 1623  history > ./history_usr.txt 
