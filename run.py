@@ -11,6 +11,7 @@ class Stepper_Motor:
   def __init__(self):
     self.init_pin()
     self.set_all(False)
+    print 'GPIO Initialized'
     return
 
   def enable_pin_output(self,pin):
@@ -24,27 +25,46 @@ class Stepper_Motor:
 
   def set_pin(self,state,pin):
     # sudo sh -c 'echo 1 > /sys/class/gpio/1/value'
-    set_pin_command = 'sudo sh -c \'echo ' + str(state) + ' > /sys/class/gpio/gpio' + str(pin) + '/value\''
+    # set_pin_command = 'sudo sh -c \'echo ' + str(state) + ' > /sys/class/gpio/gpio' + str(pin) + '/value\''
+    set_pin_command = 'echo ' + str(state) + ' > /sys/class/gpio/gpio' + str(pin) + '/value'
     os.system(set_pin_command)
 
   def init_pin(self):
     # enable all pins
-    for pin in gpio_pins:
+    for pin in self.gpio_pins:
       self.enable_pin_output(pin)
 
   def set_all(self,state):
-    for pin in gpio_pins:
-      set_pin(state and 1 or 0,pin);
+    for pin in self.gpio_pins:
+      self.set_pin(state and 1 or 0,pin);
 
   def run(self,speed,run_time):
-    sleep_time = (float) 1/ speed
+    sleep_time = 0.0001
     start_time = time.time()
-    while (time.time()-start_time ) < run_time:
-      for i,pin in enumerate(gpio_pins):
-        state = (i+1) == gpio_clockwise_cycle and 1 or 0 
-        self.set_pin(state,pin) 
+    while True:
+      self.set_pin(1,204) 
+      self.set_pin(0,205) 
+      self.set_pin(0,236) 
+      self.set_pin(0,237) 
+      time.sleep(sleep_time)
+      self.set_pin(0,204) 
+      self.set_pin(0,205) 
+      self.set_pin(0,236) 
+      self.set_pin(1,237) 
+      time.sleep(sleep_time)
+      self.set_pin(0,204) 
+      self.set_pin(0,205) 
+      self.set_pin(1,236) 
+      self.set_pin(0,237) 
+      time.sleep(sleep_time)
+      self.set_pin(0,204) 
+      self.set_pin(1,205) 
+      self.set_pin(0,236) 
+      self.set_pin(0,237) 
       time.sleep(sleep_time)
     self.set_all(False)
 
-stepper_motor = Stepper_motor()
-stepper_motor.run(100,50)
+stepper_motor = Stepper_Motor()
+print 'Input speed and time:'
+speed,run_time = map(float,raw_input().split())
+stepper_motor.run(speed,run_time)
