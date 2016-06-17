@@ -16,8 +16,8 @@ cur_time=0
 
 while [ $cur_time -lt $dur_time ];do
 
-	echo 1 > /sys/class/gpio/gpio204/value;
-	echo 0 > /sys/class/gpio/gpio205/value;
+	echo 0 > /sys/class/gpio/gpio204/value;
+	echo 1 > /sys/class/gpio/gpio205/value;
 	echo 0 > /sys/class/gpio/gpio236/value;
 	echo 0 > /sys/class/gpio/gpio237/value;
 	sleep 0.001;
@@ -25,26 +25,26 @@ while [ $cur_time -lt $dur_time ];do
 
 	echo 0 > /sys/class/gpio/gpio204/value;
 	echo 0 > /sys/class/gpio/gpio205/value;
-	echo 0 > /sys/class/gpio/gpio236/value;
-	echo 1 > /sys/class/gpio/gpio237/value;
+	echo 1 > /sys/class/gpio/gpio236/value;
+	echo 0 > /sys/class/gpio/gpio237/value;
 	sleep 0.001;
 	#echo 2;
 
 
 	echo 0 > /sys/class/gpio/gpio204/value;
 	echo 0 > /sys/class/gpio/gpio205/value;
-	echo 1 > /sys/class/gpio/gpio236/value;
-	echo 0 > /sys/class/gpio/gpio237/value;
+	echo 0 > /sys/class/gpio/gpio236/value;
+	echo 1 > /sys/class/gpio/gpio237/value;
 	sleep 0.001;
 	#echo 3;
 
-
-	echo 0 > /sys/class/gpio/gpio204/value;
-	echo 1 > /sys/class/gpio/gpio205/value;
+	echo 1 > /sys/class/gpio/gpio204/value;
+	echo 0 > /sys/class/gpio/gpio205/value;
 	echo 0 > /sys/class/gpio/gpio236/value;
 	echo 0 > /sys/class/gpio/gpio237/value;
 	sleep 0.001;
 	#echo 4;
+
 	end_time=`date +%s`
 	cur_time=$((end_time-start_time))
 done;
